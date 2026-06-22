@@ -1,6 +1,6 @@
 {
   "_comment": "【업데이트 방법】 매월 이 파일만 수정 후 GitHub Push → 대시보드 자동 반영",
-  "_last_updated": "2026-06",
+  "_last_updated": "2026-07",
 
   "meta": {
     "company": "신신사(주)",
@@ -92,15 +92,16 @@
       "total_revenue": 19857040,
       "cost": 980000,
       "net_income": 18877040
+    },
+    {
+      "month": "7월",
+      "generation_kwh": 000000,
+      "trade_kwh": 000000,
+      "smp_unit": 000.0,
+      "rec_unit": 00.0,
+      "smp_revenue": 00000000,
+      "rec_revenue": 00000000,
+      "total_revenue": 00000000,
+      "cost": 980000,
+      "net_income": 00000000
     }
-  ],
-
-  "cost_breakdown": {
-    "depreciation": 5880000,
-    "maintenance": 1200000,
-    "insurance": 480000,
-    "management_fee": 600000,
-    "electricity": 360000,
-    "etc": 360000
-  }
-}
