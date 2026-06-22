@@ -1,1 +1,106 @@
+{
+  "_comment": "【업데이트 방법】 매월 이 파일만 수정 후 GitHub Push → 대시보드 자동 반영",
+  "_last_updated": "2026-06",
 
+  "meta": {
+    "company": "신신사(주)",
+    "plant_name": "창원2공장 옥상 태양광발전소",
+    "capacity_kw": 999.36,
+    "install_date": "2025-10",
+    "report_year": 2026
+  },
+
+  "plan": {
+    "annual_revenue": 72000000,
+    "annual_generation_kwh": 1200000,
+    "annual_smp_revenue": 54000000,
+    "annual_rec_revenue": 18000000,
+    "annual_cost": 12000000,
+    "annual_net_income": 60000000,
+    "monthly_generation": [100000,90000,95000,105000,110000,115000,120000,118000,108000,100000,95000,44000]
+  },
+
+  "monthly": [
+    {
+      "month": "1월",
+      "generation_kwh": 98500,
+      "trade_kwh": 97800,
+      "smp_unit": 110.5,
+      "rec_unit": 52.3,
+      "smp_revenue": 10806900,
+      "rec_revenue": 5113940,
+      "total_revenue": 15920840,
+      "cost": 980000,
+      "net_income": 14940840
+    },
+    {
+      "month": "2월",
+      "generation_kwh": 88200,
+      "trade_kwh": 87600,
+      "smp_unit": 108.2,
+      "rec_unit": 51.8,
+      "smp_revenue": 9478320,
+      "rec_revenue": 4537680,
+      "total_revenue": 14016000,
+      "cost": 980000,
+      "net_income": 13036000
+    },
+    {
+      "month": "3월",
+      "generation_kwh": 96800,
+      "trade_kwh": 96100,
+      "smp_unit": 112.0,
+      "rec_unit": 53.5,
+      "smp_revenue": 10763200,
+      "rec_revenue": 5141350,
+      "total_revenue": 15904550,
+      "cost": 980000,
+      "net_income": 14924550
+    },
+    {
+      "month": "4월",
+      "generation_kwh": 107200,
+      "trade_kwh": 106400,
+      "smp_unit": 115.3,
+      "rec_unit": 54.1,
+      "smp_revenue": 12267920,
+      "rec_revenue": 5756240,
+      "total_revenue": 18024160,
+      "cost": 980000,
+      "net_income": 17044160
+    },
+    {
+      "month": "5월",
+      "generation_kwh": 113500,
+      "trade_kwh": 112800,
+      "smp_unit": 118.7,
+      "rec_unit": 55.2,
+      "smp_revenue": 13381640,
+      "rec_revenue": 6226560,
+      "total_revenue": 19608200,
+      "cost": 980000,
+      "net_income": 18628200
+    },
+    {
+      "month": "6월",
+      "generation_kwh": 116800,
+      "trade_kwh": 116000,
+      "smp_unit": 116.4,
+      "rec_unit": 54.8,
+      "smp_revenue": 13500240,
+      "rec_revenue": 6356800,
+      "total_revenue": 19857040,
+      "cost": 980000,
+      "net_income": 18877040
+    }
+  ],
+
+  "cost_breakdown": {
+    "depreciation": 5880000,
+    "maintenance": 1200000,
+    "insurance": 480000,
+    "management_fee": 600000,
+    "electricity": 360000,
+    "etc": 360000
+  }
+}
